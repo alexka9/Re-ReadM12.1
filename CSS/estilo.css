@@ -1,0 +1,113 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    border-radius: 4px;
+}
+.FondoVerde{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: rgba(5, 118, 68, 0.893);
+    padding: 15px;
+}
+.fondoNaranja{
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+.col33{
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+.col75{
+    width: 73%;
+    float: left;
+    padding: 1%;
+}
+.col25{
+    width: 23%;
+    float: left;
+    padding: 1%;
+}
+.col3{
+    width: 33%;
+    text-align: center;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.subtitulo{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.col75_2{
+    width: 75%;
+    float: left;
+}
+header{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: rgba(2, 66, 37, 0.893) ;
+}
+body{
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    padding: 1%;
+}
+#libros{
+    width: 20%;
+    padding-left: 8%;
+}
+nav{
+    border-bottom: 2px solid orange;
+}
+.resumen{
+    text-align: center;
+}
+figcaption{
+    margin-bottom: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+}
+.textoDerecha{
+    margin-left: 7%;
+    margin-right: 10%;
+    font-size: 22px;
+    font-family: 'Courier Prime', monospace;
+}
+
+@media only screen and (max-width:600px){
+    .col75{
+        width: 100%;
+    }
+    li{
+        text-align: center;
+        width: 100%;
+    }
+    .textoDerecha{
+        margin-left: 15%;
+    }
+    .col25{
+        width: 100%;
+    }
+    .subtitulo{
+        margin:  10%;
+    }
+    .col3{
+        width: 100%;
+    }
+    .col33{
+        margin-left: 8%;
+    }
+}
